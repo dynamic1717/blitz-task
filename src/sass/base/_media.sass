@@ -1,0 +1,41 @@
+@media (max-width: 768px)
+  .home
+    min-height: 911px
+  .menu
+    ul
+      justify-content: space-around
+    li
+      margin-right: 0
+  .about-me
+    padding: 0
+    &__container
+      margin-top: 0
+      margin-bottom: 40px
+    &__img
+      margin-right: 0
+    &__info
+      padding: 0 25px 0 35px
+
+@media (max-width: 320px)
+  .home
+    min-height: 267px
+    padding: 40px 0 0 40px
+  .about-me
+    &__img
+      overflow: hidden
+    &__img img
+      width: auto
+      height: 100%
+      transform: translateX(-30%)
+    &__info
+      padding: 0 25px 0 35px
+      h2
+        font-size: 30px
+        letter-spacing: 3px
+        margin: 50px 0 0 0
+      p
+        font-size: 18px
+        letter-spacing: 0.45px
+      h3
+        font-size: 18px
+        margin-top: 50px
